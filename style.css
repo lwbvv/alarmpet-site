@@ -160,3 +160,18 @@ th {
   font-size: 14px;
   color: var(--ink-dim);
 }
+.store-cta {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--panel);
+  text-decoration: none;
+  font-size: 15px;
+  padding: 12px 24px;
+  border: 2px solid var(--ink);
+  border-radius: 6px;
+  box-shadow: 4px 4px 0 var(--mold);
+}
+.store-cta:hover {
+  box-shadow: 2px 2px 0 var(--mold);
+  transform: translate(2px, 2px);
+}
